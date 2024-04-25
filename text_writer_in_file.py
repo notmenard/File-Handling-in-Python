@@ -1,3 +1,7 @@
+# Adding some introduction and extras
+intro = " Welcome to Text Writer Program! "
+intro = intro.center(57, "-")
+print(intro)
 # Open the file in append mode
 with open("mylife.txt", "a") as my_file:
 
