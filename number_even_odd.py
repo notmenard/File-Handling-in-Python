@@ -12,6 +12,10 @@ even_numbers = (num for num in numbers if num % 2 == 0)
 with open("even.txt", "w") as even_integers_file:
     for num in even_numbers:
         even_integers_file.write(str(num) + "\n")
-        
+
 # Writing the odd number list to "odd.txt"
+with open("odd.txt", "w") as odd_integers_file:
+    for num in odd_numbers:
+        odd_integers_file.write(str(num) + "\n")
+        
 # Displaying that the program is executed
