@@ -17,5 +17,7 @@ with open("even.txt", "w") as even_integers_file:
 with open("odd.txt", "w") as odd_integers_file:
     for num in odd_numbers:
         odd_integers_file.write(str(num) + "\n")
-        
+
 # Displaying that the program is executed
+print("Program executed successfully.")
+print("The Even and Odd integers have been separated and written to 'even.txt' and 'odd.txt' respectively.")
