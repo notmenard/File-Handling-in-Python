@@ -5,6 +5,5 @@ with open(mylife.txt, "a") as my_file:
     more_lines = "y"
     # Loop until the user confirms that there are no more lines
     while more_lines == "y":
-
-# Collecting the user's input
+    # Collecting the user's input
 # Displaying the program's output
