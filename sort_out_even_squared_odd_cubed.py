@@ -14,4 +14,7 @@ with open("integers.txt", "r") as my_file:
             # Writing the cube of the odd number to triple.txt file
             else:
                 triple_file.write(str(number ** 3) + "\n")
+
 # Displaying that the program is executed
+intro = " Welcome to the Even-Squared, Odd-Cubed Program "
+
