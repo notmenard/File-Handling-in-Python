@@ -17,4 +17,7 @@ with open("integers.txt", "r") as my_file:
 
 # Displaying that the program is executed
 intro = " Welcome to the Even-Squared, Odd-Cubed Program "
+intro = intro = intro.center(74, "-")
+print(intro)
+
 
