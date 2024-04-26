@@ -1,5 +1,4 @@
 # Importing time for delay
-import time
 from time import sleep
 
 # Opening the source file named "integers.txt" for reading
@@ -21,7 +20,7 @@ with open("integers.txt", "r") as my_file:
 
 # Displaying that the program is executed
 intro = " Welcome to the Even-Squared, Odd-Cubed Program "
-intro = intro = intro.center(74, "-")
+intro = intro.center(74, "-")
 print(intro)
 sleep(1.5)
 print("The program is processing...")
