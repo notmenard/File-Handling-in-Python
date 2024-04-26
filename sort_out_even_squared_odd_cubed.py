@@ -1,4 +1,5 @@
 # Opening the source file named "integers.txt" for reading
+with open("integers.txt", "r") as my_file:
 # Creating the two output files
 # Reading the integers from the source file
 # Converting the line into an integer
