@@ -1,3 +1,7 @@
+# Importing time for delay
+import time
+from time import sleep
+
 # Opening the source file named "integers.txt" for reading
 with open("integers.txt", "r") as my_file:
     # Creating the two output files
