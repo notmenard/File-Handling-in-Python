@@ -1,6 +1,7 @@
 # Opening the source file named "integers.txt" for reading
 with open("integers.txt", "r") as my_file:
-# Creating the two output files
+    # Creating the two output files
+    with open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
 # Reading the integers from the source file
 # Converting the line into an integer
 # Checking for the integer if even
