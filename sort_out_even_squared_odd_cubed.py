@@ -4,3 +4,4 @@
 # Converting the line into an integer
 # Checking for the integer if even
 # Writing the square of the even number to the double.txt file
+# Writing the cube of the odd number to triple.txt file
