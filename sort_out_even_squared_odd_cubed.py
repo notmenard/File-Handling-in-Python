@@ -11,5 +11,7 @@ with open("integers.txt", "r") as my_file:
             if number % 2 == 0:
                 # Writing the square of the even number to the double.txt file
                 double_file.write(str(number ** 2) + "\n")
-# Writing the cube of the odd number to triple.txt file
+            # Writing the cube of the odd number to triple.txt file
+            else:
+                triple_file.write(str(number ** 3) + "\n")
 # Displaying that the program is executed
