@@ -23,5 +23,5 @@ with open("integers.txt", "r") as my_file:
 intro = " Welcome to the Even-Squared, Odd-Cubed Program "
 intro = intro = intro.center(74, "-")
 print(intro)
-
-
+sleep(1.5)
+print("The program is processing...")
