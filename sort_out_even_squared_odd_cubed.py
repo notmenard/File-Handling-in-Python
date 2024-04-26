@@ -7,7 +7,9 @@ with open("integers.txt", "r") as my_file:
             # Converting the line into an integer
             number = int(line)
 
-# Checking for the integer if even
+            # Checking for the integer if even
+            if number % 2 == 0:
+
 # Writing the square of the even number to the double.txt file
 # Writing the cube of the odd number to triple.txt file
 # Displaying that the program is executed
