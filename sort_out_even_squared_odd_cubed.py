@@ -2,3 +2,4 @@
 # Creating the two output files
 # Reading the integers from the source file
 # Converting the line into an integer
+# Checking for the integer if even
